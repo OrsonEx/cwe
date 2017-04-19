@@ -10,12 +10,12 @@
     </listener>
 
     <servlet>
-        <servlet-name>MyFirstWebService</servlet-name>
+        <servlet-name>WebServiceServlet</servlet-name>
         <servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
-        <servlet-name>MyFirstWebService</servlet-name>
-        <url-pattern>/services/sayHi</url-pattern>
+        <servlet-name>WebServiceServlet</servlet-name>
+        <url-pattern>/ws/UserService</url-pattern>
     </servlet-mapping>
 </web-app>
